@@ -15,14 +15,15 @@ spec:
     spec:
       containers:
         - name: canary-demo
-          image: quay.io/eti_zaguri/rollouts-demo:pink
+          image: quay.io/eti_zaguri/rollouts-demo:black
           # #           image: idanarbel/rollouts-demo:blue
           #           image: idanarbel/rollouts-demo:red
           imagePullPolicy: Always
+         
           ports:
             - name: http
               containerPort: 8080
-              protocol: TCP
+              protocol: TCoi
           resources:
             requests:
               memory: 32Mi
