@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: canary-demo
-          image: quay.io/eti_zaguri/rollouts-demo:pink
+          image: quay.io/eti_zaguri/rollouts-demo:black
           # #           image: idanarbel/rollouts-demo:blue
           #           image: idanarbel/rollouts-demo:red
           imagePullPolicy: Always
