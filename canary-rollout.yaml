@@ -33,6 +33,6 @@ spec:
       canaryService: canary-demo-preview
       steps:
         - setWeight: 20
-        - pause: {duration: 25}
+        - pause: {duration: 1}
         - setWeight: 60
-        - pause: {duration: 25}
+        - pause: {duration: 1}
