@@ -19,7 +19,6 @@ spec:
           #           image: quay.io/eti_zaguri/rollouts-demo:pink
           # #           image: idanarbel/rollouts-demo:blue
           #           image: idanarbel/rollouts-demo:red
-          #
           imagePullPolicy: Always
           ports:
             - name: http
